@@ -393,8 +393,23 @@ def collect_pdfs(
     root: str,
     company_filter: str | None,
     start_from: str | None = None,
+    pdf_filter: str | None = None,
 ) -> list[tuple[str, str]]:
     """(会社フォルダ名, PDFパス) のリストを再帰的に取得して返す。"""
+    # --pdf で絶対パスのPDFファイルを直接指定された場合
+    if pdf_filter and os.path.isabs(pdf_filter):
+        if not os.path.isfile(pdf_filter):
+            print(f"[エラー] 指定されたPDFが見つかりません: {pdf_filter}")
+            sys.exit(1)
+        folder_name = os.path.basename(os.path.dirname(pdf_filter))
+        # pdfs/<company>/<file> 構造を想定してフォルダ名を親から取得
+        parent = os.path.dirname(pdf_filter)
+        if os.path.dirname(parent) == root:
+            folder_name = os.path.basename(parent)
+        else:
+            folder_name = os.path.relpath(parent, root).split(os.sep)[0]
+        return [(folder_name, pdf_filter)]
+
     result = []
     if not os.path.isdir(root):
         print(f"[エラー] PDFフォルダが存在しません: {root}")
@@ -419,6 +434,8 @@ def collect_pdfs(
             dirs[:] = [d for d in dirs if not d.startswith(".")]
             for fname in sorted(files):
                 if fname.lower().endswith((".pdf", ".html", ".htm")):
+                    if pdf_filter and pdf_filter.lower() not in fname.lower():
+                        continue
                     result.append((folder_name, os.path.join(current_dir, fname)))
 
     return result
@@ -448,6 +465,8 @@ def main():
                         help="同時 generate_content 呼び出し上限（デフォルト: 5）")
     parser.add_argument("--retry-base-wait", type=int, default=60, metavar="SEC",
                         help="レートリミット時の基本待機秒数（デフォルト: 60）。指数バックオフの底になる")
+    parser.add_argument("--pdf", metavar="PATH_OR_NAME",
+                        help="処理するPDFを絶対パスまたはファイル名（部分一致）で指定")
     args = parser.parse_args()
 
     MD_OUTPUT_ROOT = os.path.abspath(args.output)
@@ -469,7 +488,7 @@ def main():
     )
     extract_model = genai.GenerativeModel(MODEL_NAME)
 
-    pdfs = collect_pdfs(PDF_ROOT, args.company, getattr(args, "start_from", None))
+    pdfs = collect_pdfs(PDF_ROOT, args.company, getattr(args, "start_from", None), getattr(args, "pdf", None))
     if not pdfs:
         print("処理対象のPDFが見つかりませんでした。")
         return

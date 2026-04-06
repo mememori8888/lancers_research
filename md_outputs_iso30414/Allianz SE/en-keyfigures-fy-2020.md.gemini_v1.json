@@ -1,0 +1,312 @@
+{
+  "document_scope": "consolidated",
+  "metrics": [
+    {
+      "metric_id": "types_and_number_of_complaints_that_were_raised",
+      "year_values": {}
+    },
+    {
+      "metric_id": "types_and_number_of_disciplinary_action",
+      "year_values": {}
+    },
+    {
+      "metric_id": "percentage_of_employees_who_received_ethics_and_compliance_training",
+      "year_values": {}
+    },
+    {
+      "metric_id": "dispatched_to_be_resolved_by_third_parties",
+      "year_values": {}
+    },
+    {
+      "metric_id": "the_number_of_matters_pointed_out_in_external_audits_the_type_the_source_of_the_occurrence_and_the_response_to_them",
+      "year_values": {}
+    },
+    {
+      "metric_id": "total_labor_cost",
+      "year_values": {}
+    },
+    {
+      "metric_id": "external_labor_cost",
+      "year_values": {}
+    },
+    {
+      "metric_id": "remuneration_ratio_for_specific_jobs_for_total_salary",
+      "year_values": {}
+    },
+    {
+      "metric_id": "total_employment_cost",
+      "year_values": {}
+    },
+    {
+      "metric_id": "one_person_recruitment_cost_new_graduate_mid_career",
+      "year_values": {}
+    },
+    {
+      "metric_id": "one_person_recruitment_cost_mid_career",
+      "year_values": {}
+    },
+    {
+      "metric_id": "recruitment_cost",
+      "year_values": {}
+    },
+    {
+      "metric_id": "costs_associated_with_retirement",
+      "year_values": {}
+    },
+    {
+      "metric_id": "employee_ratio_under_15_years_old",
+      "year_values": {}
+    },
+    {
+      "metric_id": "employee_ratio_15_19_years_old",
+      "year_values": {}
+    },
+    {
+      "metric_id": "employee_ratio_20_29_years_old",
+      "year_values": {}
+    },
+    {
+      "metric_id": "employee_ratio_30_39_years_old",
+      "year_values": {}
+    },
+    {
+      "metric_id": "employee_ratio_40_49_years_old",
+      "year_values": {}
+    },
+    {
+      "metric_id": "employee_ratio_50_59_years_old",
+      "year_values": {}
+    },
+    {
+      "metric_id": "employee_ratio_60_years_old",
+      "year_values": {}
+    },
+    {
+      "metric_id": "male_employee_ratio",
+      "year_values": {}
+    },
+    {
+      "metric_id": "female_employee_ratio",
+      "year_values": {}
+    },
+    {
+      "metric_id": "employee_survey_score_trust_in_leadership",
+      "year_values": {}
+    },
+    {
+      "metric_id": "number_of_subordinates_per_manager",
+      "year_values": {}
+    },
+    {
+      "metric_id": "participation_rate_of_leader_ship_development_and_training",
+      "year_values": {}
+    },
+    {
+      "metric_id": "engagement_score",
+      "year_values": {}
+    },
+    {
+      "metric_id": "established_rate_of_employees",
+      "year_values": {}
+    },
+    {
+      "metric_id": "time_ratio_lost_by_work_injury",
+      "year_values": {}
+    },
+    {
+      "metric_id": "mortality_rate_due_to_work_related_accidents",
+      "year_values": {}
+    },
+    {
+      "metric_id": "remarks_of_health_and_safety_training",
+      "year_values": {}
+    },
+    {
+      "metric_id": "ebit_per_fte",
+      "year_values": {}
+    },
+    {
+      "metric_id": "sales_per_employee",
+      "year_values": {}
+    },
+    {
+      "metric_id": "net_income_per_employee",
+      "year_values": {}
+    },
+    {
+      "metric_id": "human_capital_roi",
+      "year_values": {}
+    },
+    {
+      "metric_id": "number_of_qualified_candidates_per_position",
+      "year_values": {}
+    },
+    {
+      "metric_id": "quality_per_hire",
+      "year_values": {}
+    },
+    {
+      "metric_id": "average_number_of_days_for_recruitment",
+      "year_values": {}
+    },
+    {
+      "metric_id": "average_number_of_days_until_important_posts_are_filled",
+      "year_values": {}
+    },
+    {
+      "metric_id": "internal_appointment_rate",
+      "year_values": {}
+    },
+    {
+      "metric_id": "internal_appointment_rate_of_important_posts",
+      "year_values": {}
+    },
+    {
+      "metric_id": "percentage_of_important_posts",
+      "year_values": {}
+    },
+    {
+      "metric_id": "empty_seat_rate_of_important_posts_in_all_vacant_seats",
+      "year_values": {}
+    },
+    {
+      "metric_id": "internal_transfer_number",
+      "year_values": {}
+    },
+    {
+      "metric_id": "preparation_for_executive_candidates",
+      "year_values": {
+        "2020": {
+          "value": "",
+          "unit": "",
+          "page": "1"
+        }
+      }
+    },
+    {
+      "metric_id": "turnover",
+      "year_values": {
+        "2020": {
+          "value": "",
+          "unit": "",
+          "page": "1"
+        }
+      }
+    },
+    {
+      "metric_id": "spontaneous_turnover_rate",
+      "year_values": {
+        "2020": {
+          "value": "",
+          "unit": "",
+          "page": "1"
+        }
+      }
+    },
+    {
+      "metric_id": "spontaneous_turnover_rate_that_is_painful",
+      "year_values": {
+        "2020": {
+          "value": "",
+          "unit": "",
+          "page": "1"
+        }
+      }
+    },
+    {
+      "metric_id": "internal_succession_rate",
+      "year_values": {
+        "2020": {
+          "value": "",
+          "unit": "",
+          "page": "1"
+        }
+      }
+    },
+    {
+      "metric_id": "successor_candidate_preparation_rate",
+      "year_values": {
+        "2020": {
+          "value": "",
+          "unit": "",
+          "page": "1"
+        }
+      }
+    },
+    {
+      "metric_id": "successor_s_inheritance_preparation_immediate",
+      "year_values": {
+        "2020": {
+          "value": "",
+          "unit": "",
+          "page": "1"
+        }
+      }
+    },
+    {
+      "metric_id": "successor_s_inheritance_preparation_specific_period_a",
+      "year_values": {
+        "2020": {
+          "value": "",
+          "unit": "",
+          "page": "1"
+        }
+      }
+    },
+    {
+      "metric_id": "successor_s_inheritance_preparation_specific_period_b",
+      "year_values": {
+        "2020": {
+          "value": "",
+          "unit": "",
+          "page": "1"
+        }
+      }
+    },
+    {
+      "metric_id": "total_expenses_for_human_resource_development_and_training",
+      "year_values": {}
+    },
+    {
+      "metric_id": "participation_rate_in_training",
+      "year_values": {}
+    },
+    {
+      "metric_id": "training_time_for_employees",
+      "year_values": {}
+    },
+    {
+      "metric_id": "employee_competition_sea_rate",
+      "year_values": {}
+    },
+    {
+      "metric_id": "total_number_of_employees",
+      "year_values": {}
+    },
+    {
+      "metric_id": "total_number_of_employees_full_time",
+      "year_values": {}
+    },
+    {
+      "metric_id": "total_number_of_employees_part_time",
+      "year_values": {}
+    },
+    {
+      "metric_id": "full_time_equivalent_fte",
+      "year_values": {}
+    },
+    {
+      "metric_id": "temporary_labor_independent_employer",
+      "year_values": {}
+    },
+    {
+      "metric_id": "temporary_labor_dispatched_worker",
+      "year_values": {}
+    },
+    {
+      "metric_id": "absence_rate",
+      "year_values": {}
+    }
+  ],
+  "_source_file": "en-keyfigures-fy-2020.md"
+}
